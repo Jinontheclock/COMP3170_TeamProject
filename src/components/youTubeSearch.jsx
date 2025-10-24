@@ -26,7 +26,7 @@ const YouTubeSearch = ({ isOpen, onClose, onSearchResults }) => {
       console.error('Search error:', err);
     } finally {
       setLoading(false);
-    }ㄷ
+    }
   };
 
   const handleVideoSelect = (video) => {
